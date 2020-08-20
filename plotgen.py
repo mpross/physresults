@@ -20,11 +20,14 @@ for filename in os.listdir('Data'):
     
     f.close()
     
-    plt.loglog(freq,lim)
+    plt.loglog(freq,lim,label=filename)
 
 plt.grid()
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("$\Omega_{GW}$")
+plt.legend()
+
+fig.set_size_inches(7, 5)
 
 html = mpld3.fig_to_html(fig)
 
