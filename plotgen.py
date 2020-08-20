@@ -1,15 +1,12 @@
 import numpy as np
 import os
 
-from bokeh.plotting import figure
-from bokeh.embed import components
-from bokeh.resources import CDN
-from bokeh.embed import file_html
+import matplotlib.pyplot as plt, mpld3
 
-plot = figure()
+fig = plt.figure(1)
 
 for filename in os.listdir('Data'):
-
+    
     f = open('Data/' + filename, 'r')
     
     lines = f.read().split('\n')
@@ -18,19 +15,21 @@ for filename in os.listdir('Data'):
     lim = np.zeros(l)
     
     for i in range(0, l):
-        try:
-            freq[i] = float(lines[i].split(' ')[0])
-            lim[i] = float(lines[i].split(' ')[1])
+        freq[i] = float(lines[i].split(',')[0])
+        lim[i] = float(lines[i].split(',')[1])        
     
-        except:
-            print('Read error')
     f.close()
     
-    plot.line(freq,lim)
+    plt.loglog(freq,lim)
 
+plt.grid()
+plt.xlabel("Frequency (Hz)")
+plt.ylabel("$\Omega_{GW}$")
 
-html = file_html(plot, CDN, "my plot")
+html = mpld3.fig_to_html(fig)
 
 f = open('script.html', 'w+')
 f.write(str(html))
 f.close()
+
+plt.show()
