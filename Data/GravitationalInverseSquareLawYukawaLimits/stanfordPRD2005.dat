@@ -1,0 +1,27 @@
+# This file is part of the physresults compendium distribution 
+# (https://github.com/mpross/physresults ).
+# Copyright (c) 2015 Charles Hagedorn.
+# 
+# This program is free software: you can redistribute it and/or modify  
+# it under the terms of the GNU General Public License as published by  
+# the Free Software Foundation, version 3.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License 
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+#Taken from the upper chart (95% confidence limit) of Kapultnik's 2005 prd
+#L	alpha
+4e-6	1.5e8
+6e-6	2.0e6
+10e-6	5.1e4
+18e-6	3.7e3
+34e-6	8.4e2
+66e-6	4.4e2
+#130e-6	3.6e2
+#258e-6	3.3e2

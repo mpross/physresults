@@ -1,0 +1,30 @@
+# This file is part of the physresults compendium distribution 
+# (https://github.com/mpross/physresults ).
+# Copyright (c) 2015 Charles Hagedorn.
+# 
+# This program is free software: you can redistribute it and/or modify  
+# it under the terms of the GNU General Public License as published by  
+# the Free Software Foundation, version 3.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License 
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+#lambda	alpha
+#m
+7e-5	1e7
+8e-5	1e6
+.98e-4	1e5
+1.5e-4	2512
+2.1e-4	1e2
+5e-4	2
+7e-4	0.631
+1e-3	0.251
+2e-3	0.126
+3e-3	0.141
+5e-3	0.200
