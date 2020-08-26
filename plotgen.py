@@ -9,7 +9,7 @@ fig = plt.figure(1)
 
 for filename in os.listdir('Data'):
     
-    f = open('Data/' + filename, 'r')
+    f = open('Data/StochasticGWLimits/' + filename, 'r')
     
     lines = f.read().split('\n')
     l = lines.__len__() - 1

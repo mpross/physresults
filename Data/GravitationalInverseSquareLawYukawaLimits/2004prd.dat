@@ -1,0 +1,30 @@
+# This file is part of the physresults compendium distribution 
+# (https://github.com/mpross/physresults ).
+# Copyright (c) 2015 Charles Hagedorn.
+# 
+# This program is free software: you can redistribute it and/or modify  
+# it under the terms of the GNU General Public License as published by  
+# the Free Software Foundation, version 3.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License 
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+#"95% confidence limits on Yukawa interactions from combined data set"
+#L	#alpha
+10e-6	1e10
+25e-6	1.6e5
+50e-6	8.8e2
+100e-6	1.8e1
+250e-6	4.3e-1
+500e-6	4.8e-2
+1e-3	1.1e-2
+1.5e-3	7.9e-3
+2.5e-3	1e-2
+5e-3	1.3e-2
+10e-3	1.8e-2
